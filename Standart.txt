@@ -1,0 +1,57 @@
+Title="Calculator" Height="611" Width="608" Background="#ebebeb">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <RadioButton x:Name="radioButtonStandart" Content="Standart" Grid.Column="0" HorizontalAlignment="Left" Margin="25,0,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButtonScientific" Content="Scientific" Grid.Column="1" HorizontalAlignment="Left" Margin="53,15,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButtonProgrammer" Content="Programmer" Grid.Column="2" HorizontalAlignment="Left" Margin="54,15,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelDuplicate" Grid.ColumnSpan="5" Content="Label" HorizontalAlignment="Left" Height="32" Margin="40,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="531"/>
+        <Label x:Name="labelMain" Grid.ColumnSpan="5" Content="Label" HorizontalAlignment="Left" Height="32" Margin="40,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="531"/>
+        <Button x:Name="buttonMR" Content="MR" HorizontalAlignment="Left" Margin="40,10,0,0" Grid.Row="4" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonMemoryPlus" Content="M+" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="4" Grid.Column="1" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonMemoryMinus" Content="M-" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="4" Grid.Column="2" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonMS" Content="MS" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="4" Grid.Column="3" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonPercent" Content="%" HorizontalAlignment="Left" Margin="40,10,0,0" Grid.Row="5" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonCE" Content="CE" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="5" Grid.Column="1" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonC" Content="C" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="5" Grid.Column="2" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonclear" Content="clear" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="5" Grid.Column="3" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button1x" Content="1/x" HorizontalAlignment="Left" Margin="40,10,0,0" Grid.Row="6" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonX2" Content="x2" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="6" Grid.Column="1" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button2korenx" Content="2korenx" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="6" Grid.Column="2" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonDivide" Content="/" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="6" Grid.Column="3" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Margin="40,10,0,0" Grid.Row="7" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="7" Grid.Column="1" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="7" Grid.Column="2" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonMultiply" Content="x" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="7" Grid.Column="3" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="40,10,0,0" Grid.Row="8" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="8" Grid.Column="2" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonMinus" Content="-" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="8" Grid.Column="3" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="40,10,0,0" Grid.Row="9" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="9" Grid.Column="1" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="9" Grid.Column="2" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonPlus" Content="+" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="9" Grid.Column="3" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonPlusMinus" Content="+/-" HorizontalAlignment="Left" Margin="40,10,0,0" Grid.Row="10" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Margin="37,17,0,0" Grid.Row="10" Grid.Column="1" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonComma" Content="," HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="10" Grid.Column="2" VerticalAlignment="Top" Width="75" />
+        <Button x:Name="buttonEqually" Content="=" HorizontalAlignment="Left" Margin="35,15,0,0" Grid.Row="10" Grid.Column="3" VerticalAlignment="Top" Width="75" />
+
+    </Grid>
